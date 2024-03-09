@@ -1,0 +1,6 @@
+pip install SpeechRecognition
+pip install pyaudio
+pip install pyttsx3
+follow these steps: https://github.com/Simatwa/python-tgpt
+pip install python-tgpt
+pip install g4f==0.1.9.3
