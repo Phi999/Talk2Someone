@@ -22,7 +22,7 @@ while True:
         r.pause_threshold = 1
         audio = r.listen(source)
         try:
-            command = r.recognize_google(audio,language = "ro-RO")
+            command = r.recognize_google(audio)
             print("H: " + command)
             response = bot.chat(command)
             print("R: " + str(response))
